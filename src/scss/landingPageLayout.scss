@@ -1,0 +1,295 @@
+.landingpage {
+    padding: 0;
+    background-color: #121213;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    .layout {
+        min-height: 100vh;
+        min-width: 80vw !important;
+        // margin: 0 5rem;
+        // padding: 0 6rem;
+    }
+
+    .footer {
+        @include landgradient;
+        // padding: 3rem 6rem;
+        margin-top: 80px;
+        // height: 100%;
+    }
+
+
+
+
+    .home {
+        background-image: url("/landingpage-images/home-bg.svg");
+        height: 1260px !important;
+        width: 100%;
+        // background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
+
+        .heading {
+            font-size: 200px;
+            font-weight: 500;
+            color: #ffffff;
+            font-family: 'bachelorette';
+            line-height: 1;
+
+            @include sm {
+                font-size: 100px;
+            }
+        }
+
+        .sub-heading {
+            font-size: 40px;
+            font-weight: 300 !important;
+            color: #EDEDED;
+            font-family: 'rebond-regular';
+
+            @include sm {
+                font-size: 30px;
+                line-height: 1;
+                padding-bottom: 4rem;
+            }
+        }
+    }
+
+    .learn-text {
+        font-size: 50px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 1.1;
+
+        @include sm {
+            font-size: 25px;
+        }
+    }
+
+    .p-txt {
+        color: #EDEDED;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+
+    .investor-layout {
+
+        width: 50%;
+        margin: 0 auto;
+
+        @include sm {
+            width: 100%;
+            margin: 0;
+        }
+
+        .land-button {
+            display: none !important;
+        }
+
+        .label {
+            font-size: 30px;
+            font-weight: 300;
+            color: #EDEDED !important;
+            font-family: 'rebond-light';
+
+            span {
+                color: #EC1D1D;
+            }
+        }
+
+        .form {
+            .land-button {
+                display: block !important;
+                border-radius: 10px;
+            }
+        }
+
+
+
+        input {
+            height: 55px;
+            background-color: hsla(0, 0%, 100%, 0.5);
+            border: none;
+            border-radius: 10px;
+
+            &.otp {
+                width: 55px;
+            }
+
+            &::placeholder {
+                color: #737373;
+            }
+
+            .ant-checkbox-wrapper {
+                &:nth-child(2) {
+                    font-size: 16px !important;
+                    font-weight: 300 !important;
+                }
+            }
+        }
+    }
+
+
+
+    .blogs-layout {
+        .blogs-bg {
+            background-image: url("/landingpage-images/blogs-bg.svg");
+            height: 1260px !important;
+            width: 100%;
+            overflow: hidden;
+            // background-size: 100% 100%;
+            background-size: cover;
+            object-fit: cover;
+            background-position: center;
+
+            h2 {
+                padding-top: 10rem !important;
+            }
+
+            h3 {
+                font-size: 20px !important;
+            }
+        }
+
+        // .bg{
+        //     background-image: url("/landingpage-images/side-img.svg");
+        //     background-repeat: no-repeat;
+        //     background-size: 100% 100%;
+        //     background-position: end;
+        //     overflow: hidden;
+        // }
+    }
+
+    .inner-blog {
+        .blog1 {
+            background-image: url("/landingpage-images/innerblog1-bg.svg");
+            height: 1260px !important;
+            width: 100%;
+            overflow: hidden;
+            // background-size: 100% 100%;
+            background-size: cover;
+            background-position: center !important;
+
+            .sub-heading {
+                font-size: 20px !important;
+                width: 50%;
+                margin: auto;
+                line-height: 1;
+                padding-bottom: 3rem;
+
+                @include sm {
+                    width: 100%;
+                }
+            }
+
+           
+        }
+
+        .number-text {
+            font-size: 200px;
+            font-weight: 500;
+            -webkit-text-stroke-width: 1;
+            color: transparent;
+            font-family: 'rebond-extrabold';
+            -webkit-text-stroke: 1px white !important;
+        }
+
+        // p{
+        //     color: #EDEDED !important;
+        //     // font-family:'rebond-light' !important;
+        // }
+
+        // .heading{
+        //     font-size: 90px;
+        // }
+
+        // .icon{
+        //     display: flex;
+        //     justify-content: end;
+        // }
+    }
+
+
+}
+
+
+.ant-drawer-content.mobile-nav {
+    @include landgradient;
+
+
+
+    .mobile-navbar {
+        .nav-links {
+            flex-direction: column;
+            gap: 16px !important;
+            padding: 30px;
+            font-size: 19px !important;
+        }
+
+    }
+}
+
+.heading {
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'bachelorette';
+
+    @include sm {
+        font-size: 60px;
+    }
+}
+
+.sub-heading {
+    font-size: 40px;
+    font-weight: 300 !important;
+    color: #EDEDED;
+    font-family: 'rebond-regular';
+
+    @include sm {
+        font-size: 30px;
+    }
+}
+
+
+.blog-card {
+
+    // width: 530px !important;
+
+    .text-box {
+        background-color: #ffffff;
+        padding: 30px;
+        width: 530px !important;
+
+
+        @include sm {
+            width: 100% !important;
+        }
+
+        p.heading {
+            font-size: 50px;
+            color: #AD0000;
+            padding-top: 0px !important;
+
+            @include sm {
+                font-size: 40px;
+            }
+        }
+
+        p {
+            color: #626262;
+        }
+
+        small {
+            color: #898989;
+        }
+
+        h6 {
+            color: #AD0000;
+            font-weight: 600;
+        }
+    }
+
+
+}

@@ -1,0 +1,31 @@
+@import './base.scss';
+
+.notification{
+    width: 494px;
+    height: 584px;
+    // overflow-y: auto;
+    @include sm{
+        width: 100%;
+        height: 100%;
+    }
+    .w-75{
+        @include xs{
+            width: 100% !important;
+        }
+    }
+    .notification-box{
+        height: 81.83px;
+        width: 71.16;
+    }
+    .title{
+        font-size: 20px;
+        color: #454F63;
+    }
+    .sub-title{
+        font-size: 16px;
+        color: #22172A;
+    }
+    .left{
+        border-right: 2px solid #DADADA;
+    }
+}

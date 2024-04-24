@@ -1,0 +1,309 @@
+@import "./base.scss";
+
+.carousal {
+    height: 300px;
+
+    @include sm {
+        overflow-x: hidden;
+    }
+
+    .carousal-card {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.slide-content {
+    .title {
+        font-size: 26px;
+    }
+
+    .location {
+        font-size: 16px;
+    }
+
+    .distance {
+        font-size: 14px;
+    }
+
+    .ant-slider-track {
+        background: #ff2f2f !important;
+    }
+
+    .ant-slider-handle {
+        &:focus::after {
+            width: 23px !important;
+            height: 15px !important;
+        }
+
+        &::after {
+            background-image: url("/icons/slider-heart.svg");
+            box-shadow: none !important;
+            border-radius: 0px !important;
+            width: 18px !important;
+            height: 15px !important;
+            background-size: contain;
+            background-repeat: no-repeat;
+            // box-shadow: 0 0 0 3px #b52929 !important;
+            // background-color: #b52929 !important;
+        }
+    }
+}
+
+.bread-crumb {
+    .crumb {
+        font-size: 18x;
+    }
+}
+
+.nearby {
+    .nearby-content {
+        height: 662px;
+        border-radius: 25px;
+        background-image: url("/images/map.webp");
+        background-size: contain;
+
+        .form {
+            height: 242px;
+            background-color: #ffffff;
+            border-radius: 25px;
+
+            .heading {
+                font-size: 20px;
+                color: #454f63;
+            }
+
+            .sub-heading {
+                font-size: 16px;
+                color: #454f63;
+            }
+
+            .input-control {
+                height: 48px;
+                border: 2px solid #b3b3b3;
+
+                input {
+                    color: #b3b3b3;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            button {
+                height: 48px !important;
+                font-size: 18px !important;
+                border: none;
+                color: #ffffff;
+
+                &:hover {
+                    color: $primary;
+                    border: 1px solid $primary;
+                }
+            }
+        }
+    }
+}
+
+.live-meet {
+    margin-top: -100px;
+    min-height: 750px;
+
+    .gradient {
+        top: -100px;
+        left: 125px;
+        height: 40em;
+        width: 40em;
+
+        @include sm {
+            // height: ;
+            width: 100vw;
+            height: 100vw;
+        }
+
+        // background-color: green !important;
+        &.fail {
+            background: rgb(4, 86, 208);
+            background: radial-gradient(
+                circle,
+                rgba(4, 86, 208, 1) 0%,
+                rgba(4, 86, 208, 0.1) 60%,
+                rgba(4, 86, 208, 0) 70%,
+                rgba(4, 86, 208, 0) 80%,
+                rgba(4, 86, 208, 0) 90%
+            );
+        }
+
+        &.success {
+            background: #0d8d59;
+            background: radial-gradient(
+                circle,
+                hsl(156, 83%, 30%, 1) 0%,
+                hsl(156, 83%, 30%, 0.1) 60%,
+                hsl(156, 83%, 30%, 0) 70%,
+                hsl(156, 83%, 30%, 0) 80%,
+                hsl(156, 83%, 30%, 0) 90%
+            );
+        }
+    }
+
+    .bottom {
+        p {
+            font-size: 18px;
+        }
+
+        span {
+            font-size: 16px;
+        }
+
+        button {
+            height: 48px;
+            font-size: 18px;
+        }
+
+        .enable {
+            color: #ffffff;
+            border: none;
+
+            &:hover {
+                color: $primary;
+                border: 1px solid $primary;
+            }
+        }
+
+        .cancel {
+            color: $primary;
+            border: 1px solid $primary;
+
+            &:hover {
+                @include base-gradient;
+                color: #ffffff;
+                border: none;
+            }
+        }
+
+        .bottom-card {
+            height: 179px;
+            width: 179px;
+            border-radius: 10px;
+            border: 7.5px solid #ffffff;
+            background-image: url("https://images.pexels.com/photos/2167437/pexels-photo-2167437.jpeg?auto=compress&cs=tinysrgb&w=400");
+
+            .close {
+                height: 22.14px;
+                width: 22.14px;
+                color: #ed1b1b;
+            }
+
+            .heart {
+                height: 22.14px;
+                width: 22.14px;
+                color: #ed1b1b;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.popover-content {
+    p {
+        font-size: 20px;
+    }
+}
+
+.sliver-c {
+    background-image: url("/images/sliver-circle.webp");
+    background-size: cover;
+    height: 38px;
+    width: 38px;
+
+    span {
+        font-size: 11px;
+        color: #ffffff;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180deg, #e4e4e4 0%, #737374 100%);
+    }
+}
+
+.check-option {
+    font-size: 12px;
+    font-weight: 500;
+
+    margin-right: 10px;
+    // width: 118.74px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #454f63;
+}
+
+.slider {
+    // width: 760px;
+    margin: 40px 0;
+}
+
+.ant-slider-track {
+    @include base-gradient;
+}
+
+.ant-slider-rail {
+    background-color: #d9d9d9;
+}
+
+.send-btn {
+    height: 52px;
+    font-size: 18px;
+    @include base-gradient;
+    span {
+        color: #ffffff;
+    }
+    &:hover {
+        border: 1px solid $primary !important;
+        span {
+            color: $primary !important;
+        }
+    }
+}
+
+.met-btn {
+    background-color: transparent !important;
+    border: 1px solid $primary !important;
+    color: $primary !important;
+    height: 52px;
+    font-size: 18px;
+}
+
+.insta {
+    font-size: 18px;
+    font-weight: 600;
+    color: #454f63;
+}
+
+.miles {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ae2828;
+    position: relative;
+    top: -6.4rem;
+    left: 14em;
+}

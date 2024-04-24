@@ -1,95 +1,43 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import TextComp from '@/component/shared/cards/text';
+import LandingpageLayout from '@/component/shared/layout/landingpage'
+import { Button } from 'antd'
+import Image from 'next/image';
+import React from 'react'
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+function home() {
+    return (
+        <LandingpageLayout >
+            <div className='home  d-flex text-center justify-content-center align-items-center flex-column'>
+                <TextComp
+                    heading='Welcome'
+                    subHeading='to the First Love & Relationship management platform'
+                    buttontext='Step Into The Game'
+                />
+            </div>
+            <div className='row'>
+                <div className="col-lg-6 col-12 d-flex justify-content-lg-end">
+                    <p className=' text-white learn-text rebond-medium'>Learn to date better. <br />
+                        The only app you need <br />
+                        to find and keep love.</p>
+                </div>
+            </div>
+            <div className='row'>
+                <div className="col-6">
+                </div>
+                <div className="col-lg-6 col-12">
+                    <div className='d-flex justify-content-lg-start justify-content-end py-2'>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                        <Image src={'/landingpage-images/arrowdown-home.svg'} width={300} height={300} alt={''} />
+                    </div>
+                    <p className='text-start p-txt rebond-light '>Dating is the game where everyone wins. <br />
+                        But if you don’t play, your chance is 0%. <br />
+                        It’s up to you!</p>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+                    <Button className='land-button d-flex align-items-center px-5'>How do I start?</Button>
+                </div>
+            </div>
+        </LandingpageLayout>
+    )
 }
+
+export default home;

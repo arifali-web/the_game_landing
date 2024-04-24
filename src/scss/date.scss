@@ -1,0 +1,205 @@
+@import "./base.scss";
+
+.date {
+    .ant-ribbon {
+        top: 37px;
+        width: 166px;
+        height: 28px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .plan-a-date-card {
+        min-height: 173px;
+        border: 2px solid #948f99;
+        border-radius: 15px;
+
+        @include md{
+            flex-direction: column;
+            img{
+                width: 100%;
+                border-radius: 15px 15px 15px 15px !important;
+            }
+        }
+
+        img {
+            border-radius: 15px 0px 0px 15px;
+        }
+        .content {
+            width: inherit;
+            p {
+                font-size: 20px;
+                color: #454F63;
+            }
+            span {
+                font-size: 16px;
+                color: #b3b3b3;
+            }
+            small {
+                font-size: 13.4px;
+                color: #454F63;
+            }
+        }
+        .checkin {
+            width: inherit;
+            button {
+                border: none;
+                color: #ffffff;
+                height: 38.04px;
+                &:hover {
+                    border: 1px solid $primary !important;
+                    color: $primary !important;
+                    background-color: transparent !important;
+                }
+            }
+        }
+    }
+    .score-you-date-card {
+        height: 255px;
+        width: 183px;
+        border-radius: 10px;
+        background-image: url("https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=300");
+        background-size: cover;
+        .layer {
+            background-color: hsla(0, 0%, 0%, 0.25);
+            border-radius: 10px;
+        }
+        .content {
+            .watch {
+                height: 34.56px;
+                width: 34.56px;
+            }
+            span {
+                font-size: 17.28px;
+            }
+            small {
+                font-size: 12.67px;
+            }
+        }
+    }
+}
+.tabbar-container {
+    .tabbar {
+        height: 44px;
+        width: 527px;
+        border-radius: 14px;
+        background-color: #ffe3e3;
+        .tab {
+            font-size: 16px;
+        }
+        .active {
+            @include base-gradient;
+            a {
+                color: #ffffff;
+            }
+        }
+        .in-active {
+            a {
+                color: #948f99;
+            }
+        }
+    }
+}
+
+.plan-a-date {
+    .plan-date-card {
+        border-radius: 15px;
+        .top-img {
+            height: 173px;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .social-icons{
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #F5F5F5 !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            top: -9rem;
+            right: 12px;
+            margin-bottom: -2rem;
+        }
+        .header {
+            .checkin {
+                width: inherit;
+                button {
+                    border: none;
+                    color: #ffffff;
+                    height: 38.04px;
+                    &:hover {
+                        border: 1px solid $primary !important;
+                        color: $primary !important;
+                        background-color: transparent !important;
+                    }
+                }
+            }
+            span{
+                font-size: 20px;
+                color: #454F63;
+            }
+            small{
+                font-size: 15px;
+                color: #ED1B1B;
+            }
+            button{
+                font-size: 14px;
+                &:hover{
+                    color: $primary !important;
+                    span{
+                        color: $primary !important;
+                    }
+                }
+                span{
+                    color: #ffffff;
+                    font-size: 14px;
+                }
+            }
+        }
+        .links{
+            p{
+                color: #949BAB;
+                font-size: 16px;
+            }
+            a{
+                color: #5581F4;
+                text-decoration: underline !important;
+            }
+            span{
+                color: #454F63;
+                font-size: 15px;
+            }
+        }
+        .images{
+            img{
+                border-radius: 10px;
+            }
+        }
+    }
+    .bottom{
+        button {
+            height: 48px;
+            font-size: 18px;
+        }
+        .enable {
+            color: #ffffff;
+            border: none;
+            &:hover {
+                color: $primary;
+                border: 1px solid $primary;
+            }
+        }
+        .cancel {
+            color: $primary;
+            border: 1px solid $primary;
+            &:hover{
+                @include base-gradient;
+                color: #ffffff;
+                border: none;
+            }
+        }
+    }
+}

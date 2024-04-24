@@ -1,0 +1,24 @@
+@import './base.scss';
+
+.term{
+    p{
+        font-size: 15px;
+    }
+}
+.enable-location{
+    p{
+        color: #454F63;
+        font-size: 18px;
+    }
+    button{
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+        height: 52px;
+        &:hover{
+            color: $primary !important;
+            background-color: transparent !important;
+            border: 1px solid $primary !important;
+        }
+    }
+}

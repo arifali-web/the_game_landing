@@ -1,0 +1,17 @@
+.footer{
+    @include landgradient;
+
+    .nav-links {
+        flex-direction: column;
+        gap: 18px !important;
+    }
+
+   
+}
+
+
+@include md {
+    .social{
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+@import "./base.scss";
+
+.profile {
+    .header {
+        min-height: 250px;
+        @include sm{
+            flex-direction: column;
+        }
+        .profile-img{
+            @include sm{
+                width: 100%;
+            }
+        }
+        .edit-profile {
+            height: 38px;
+            border: 1px solid #948f99;
+            width: 151px;
+            span {
+                font-size: 16px;
+                color: #454f63;
+            }
+        }
+        .right {
+            height: auto;
+            min-height: 250px;
+            @include sm{
+                min-height: 50px;
+            }
+        }
+        .links {
+            .super-likes {
+                color: #948f99;
+                font-size: 16px;
+            }
+        }
+    }
+    .ant-progress-bg {
+        @include base-gradient;
+    }
+    .ant-progress-inner {
+        background-color: #d9d9d9;
+    }
+    .progress-box {
+        color: #948f99;
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .radio-area {
+        border-top: 1px solid hsla(270, 5%, 58%, 0.45);
+        border-bottom: 1px solid hsla(270, 5%, 58%, 0.45);
+    }
+
+    .ant-collapse {
+        border-radius: 0px;
+        border: none;
+        border-top: 1px solid hsla(220, 18%, 33%, 0.2);
+        box-shadow: none;
+        .ant-collapse-header {
+            border-bottom: 0.25px solid hsla(220, 18%, 33%, 0.2) !important;
+            background-color: #ffffff;
+            height: 60px;
+            align-items: center;
+            .ant-collapse-expand-icon {
+                color: $primary;
+                font-weight: bold;
+                position: absolute;
+                right: 0px;
+            }
+            .ant-collapse-header-text {
+                font-size: 14px !important;
+                font-weight: 500;
+            }
+        }
+
+        .rotate-90 {
+            transform: rotate(90deg);
+        }
+        .ant-collapse-item:last-child > .ant-collapse-header {
+            border-radius: 0px;
+        }
+    }
+    .ant-collapse-content,
+    .ant-collapse-item {
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+}

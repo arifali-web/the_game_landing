@@ -1,0 +1,40 @@
+.about-card {
+    padding: 2rem 4rem !important;
+    
+    @include sm {
+        padding: 2rem 2rem !important;
+    }
+ 
+     .aboutcard {
+         // height: 387px;
+         // width: 387px;
+         border-radius: 5px;
+         background: #fff !important;
+         padding: 15px;
+ 
+ 
+ 
+         .card-title {
+             font-size: 16px;
+             font-weight: 500;
+             color: #454f63;
+         }
+ 
+         .card-sub-title {
+             font-size: 16px;
+             font-weight: 600;
+             color: #141414;
+ 
+             span {
+                 color: #AD0000;
+             }
+         }
+     }
+ 
+ }
+ 
+ .heading {
+     font-size: 80px;
+     font-weight: 400;
+     color: #fff;
+ }

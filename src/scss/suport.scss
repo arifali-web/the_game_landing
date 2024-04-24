@@ -1,0 +1,18 @@
+@import './base.scss';
+
+.support{
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+        color: hsla(345, 6%, 13%, 0.5);
+        @include sm{
+            width: 100% !important;
+        }
+    }
+    a{
+        font-size: 18px;
+        text-decoration: underline !important;
+    }
+}

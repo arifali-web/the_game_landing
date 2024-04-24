@@ -1,0 +1,61 @@
+@import './base.scss';
+
+.learn{
+    h2{
+        font-size: 30px;
+    }
+    button{
+        height: 57px;
+        span{
+            font-size: 18px;
+            color: #ffffff;
+        }
+        &:hover{
+            span{
+                color: $primary;
+            }
+        }
+    }
+    p{
+        font-size: 18px;
+        color: hsla(345, 6%, 13%, 0.5);
+    }
+    span{
+        font-size: 16px;
+        color: hsla(345, 6%, 13%, 0.3);
+        a{
+            color: #0061F2 !important;
+        }
+    }
+
+    .score-text{
+        font-size: 28px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    
+    .circle {
+        background-image: url(/images/circle.webp);
+        background-size: cover;
+        height: 227.69px;
+        width: 232px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .heading {
+            font-size: 50px;
+            font-weight: 500;
+            background-color: #B52929;
+            color: #ffffff;
+            border-radius: 50%;
+            height: 140.16px;
+            width: 136.48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

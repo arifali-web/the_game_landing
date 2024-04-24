@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.file-upload {
+    input[type="file"] {
+        display: none;
+    }
+
+    .custom-file-upload {
+        border: 1.7px dashed #aaafbb;
+        border-radius: 13.7px;
+        height: 156.26px;
+        width: 156.26px;
+        cursor: pointer;
+        margin-right: 10px;
+        &.single {
+            height: 180px;
+            width: 180px;
+        }
+    }
+    .list-image {
+        margin-right: 10px;
+        border-radius: 13.7px;
+    }
+}
