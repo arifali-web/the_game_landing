@@ -1,7 +1,6 @@
 import { Drawer, Menu } from 'antd';
 import Link from 'next/link';
 import React from 'react'
-import Submenu from './sidebar/submenu';
 import Navlink from './navLinks';
 
 
