@@ -1,0 +1,4 @@
+export default [
+    'If you have a new match, make them feel special – that is, have a good look at their profile and give a compliment about something special to them – not just “cute smile” – if you’re a guy, trust me, girls get this line thousands of times and it kind of lost its value.',
+    'Accept other human beings with their perfect imperfections, even if they look like a super star. Remember that people might feel overwhelmed, stressed at work, feeling insecure about themselves – so unless they are being disrespectful, don’t block someone just because they don’t behave as you’d want them too. That is not the same as lowering your standards though: accept them with kindness – and move on.'
+]

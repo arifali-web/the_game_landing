@@ -1,6 +1,9 @@
+'use client'
 import blogs from '@/config/landingpageData/blogs';
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 import React from 'react'
+
 
 
 interface BlogCardProps {
@@ -8,9 +11,13 @@ interface BlogCardProps {
     content: string;
     date: string;
     imageSrc: string;
+    path: string; // New prop for path
+    handleClick: () => void;
 }
-const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc }) => (
-    <div className='blog-card col-lg-4 col-12 d-flex flex-column align-items-center my-3'>
+const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc, path, handleClick }) => (
+
+    
+    <div onClick={handleClick} className='blog-card pointer col-lg-4 col-12 d-flex flex-column align-items-center my-3'>
         <Image
             src={imageSrc}
             alt=''
@@ -19,7 +26,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc }) =
             className='profile-img img-fluid'
         />
         <div className='text-box'>
-            <p className='heading p-0'>{title}</p>
+            <h2 className='heading p-0'>{title}</h2>
             <p>{content}</p>
             <div className='d-flex pt-4 justify-content-between'>
                 <small>{date}</small>
@@ -31,7 +38,11 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc }) =
 
 
 const Blog = () => {
-   
+    const router = useRouter()
+
+    const handleClick = (path: string) => {
+        router.push(path)
+    }
 
     return (
         <div className='d-flex flex-wrap'>
@@ -42,6 +53,8 @@ const Blog = () => {
                     content={blog.content}
                     date={blog.date}
                     imageSrc={blog.imageSrc}
+                    path={`/blogs/${index}`} 
+                    handleClick={() => handleClick(`/blogs/${index}`)} 
                 />
             ))}
         </div>

@@ -14,8 +14,8 @@ function AboutCard() {
             <Image alt='' src={member.icon} height={24} width={24} />
           </div>
           <div className='aboutcard'>
-            <p className='card-title py-3'>{member.description}</p>
-            <p className='card-sub-title'>
+            <p className='card-title text-black py-3'>{member.description}</p>
+            <p className='card-sub-title text-black'>
               {member.name} | <span className='text-red'>{member.title}</span>
             </p>
           </div>

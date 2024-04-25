@@ -162,14 +162,22 @@
     }
 
     .inner-blog {
+
+
         .blog1 {
-            background-image: url("/landingpage-images/innerblog1-bg.svg");
-            height: 1260px !important;
+            background-image: url("/landingpage-images/blog1-bg.svg");
+            height: 1500px !important;
             width: 100%;
             overflow: hidden;
             // background-size: 100% 100%;
             background-size: cover;
+            padding-top: 25rem !important;
             background-position: center !important;
+
+            @include md {
+                height: unset !important;
+            }
+
 
             .sub-heading {
                 font-size: 20px !important;
@@ -178,41 +186,294 @@
                 line-height: 1;
                 padding-bottom: 3rem;
 
-                @include sm {
+                @include md {
                     width: 100%;
                 }
             }
 
-           
+
+
         }
 
-        .number-text {
-            font-size: 200px;
-            font-weight: 500;
-            -webkit-text-stroke-width: 1;
-            color: transparent;
-            font-family: 'rebond-extrabold';
-            -webkit-text-stroke: 1px white !important;
+        .blog2 {
+            background-image: url("/landingpage-images/blog2-bg.svg");
+            height: 1500px !important;
+            width: 100%;
+            overflow: hidden;
+            // background-size: 100% 100%;
+            background-size: cover;
+            padding-top: 25rem !important;
+            background-position: center !important;
+
+            @include md {
+                height: unset !important;
+            }
+
+
+            .sub-heading {
+                font-size: 20px !important;
+                width: 50%;
+                margin: auto;
+                line-height: 1;
+                padding-bottom: 3rem;
+
+                @include md {
+                    width: 100%;
+                }
+            }
         }
 
-        // p{
-        //     color: #EDEDED !important;
-        //     // font-family:'rebond-light' !important;
-        // }
+        .blog3 {
+            background-image: url("/landingpage-images/blog3-bg.svg");
+            height: 1500px !important;
+            width: 100%;
+            overflow: hidden;
+            // background-size: 100% 100%;
+            background-size: cover;
+            padding-top: 25rem !important;
+            background-position: center !important;
 
-        // .heading{
-        //     font-size: 90px;
-        // }
+            @include md {
+                height: unset !important;
+            }
 
-        // .icon{
-        //     display: flex;
-        //     justify-content: end;
-        // }
+
+            .sub-heading {
+                font-size: 20px !important;
+                width: 50%;
+                margin: auto;
+                line-height: 1;
+                padding-bottom: 3rem;
+
+                @include md {
+                    width: 100%;
+                }
+            }
+        }
+
+        .row {
+            h4.heading {
+                font-size: 60 !important;
+
+                @include md {
+                    font-size: 50px !important;
+
+                    span {
+                        font-size: 20px;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+
+
+        .blog3-text {
+            margin-top: -43rem;
+
+            @include md {
+                margin-top: 0;
+            }
+
+            .span-t {
+                font-size: 22px;
+                font-weight: 300 !important;
+                color: #EDEDED;
+                font-family: 'rebond-regular';
+
+                @include sm {
+                    font-size: 20px;
+                }
+            }
+
+            .span-b {
+                font-size: 22px;
+                font-weight: 300 !important;
+                color: #EDEDED;
+                font-family: 'rebond-regular';
+
+                @include sm {
+                    font-size: 20px;
+                }
+            }
+
+            .txt {
+                font-size: 22px;
+                font-weight: 300 !important;
+                color: #EDEDED;
+                font-family: 'rebond-light';
+            }
+
+            h3{
+                font-size: 30px;
+            }
+
+            li {
+                font-size: 30px;
+                font-weight: 500 !important;
+                color: #EDEDED;
+                font-family: 'rebond-regular';
+            }
+
+            .list-p{
+                padding-left: 10 !important;
+            }
+
+
+            .list-p li {
+                // padding-left: 30px !importasnt;
+                list-style: auto;
+                font-size: 22px;
+                font-weight: 500 !important;
+                color: #EDEDED;
+                font-family: 'rebond-light' !important;
+            }
+
+            .table {
+                border: 1px solid;
+                /* padding: 29px !important; */
+            }
+            
+            .table td {
+                border: 1px solid;
+                text-align: center;
+            }
+            
+            .table th {
+                border: 1px solid;
+                text-align: center;
+            }
+        }
+
+
+        .list {
+            padding-left: 9rem !important;
+            width: 85%;
+
+            @include md {
+                width: 100% !important;
+                padding-left: 0rem !important;
+            }
+        }
+
+        .arrow {
+            justify-content: end;
+        }
+
+
+
     }
+
+
+    .about-inner {
+
+        padding-top: 4rem !important;
+
+        h2 {
+            font-size: 90px !important;
+
+            @include md {
+                font-size: 40px !important;
+                text-align: center;
+            }
+        }
+
+        .sub-heading {
+            font-size: 50px !important;
+
+            @include md {
+                font-size: 22px !important;
+                text-align: center;
+            }
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 300 !important;
+
+            @include md {
+                font-size: 20px !important;
+
+            }
+        }
+
+
+
+
+
+
+
+    }
+
+
 
 
 }
 
+.right .text-box {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    @include md {
+        flex-direction: row;
+        justify-content: unset;
+    }
+}
+
+.right .p-text {
+    padding-left: 0px !important;
+    width: 80% !important;
+
+    @include sm {
+        width: 100% !important;
+    }
+}
+
+
+.inner-text {
+    h2 {
+        font-size: 90px !important;
+        line-height: 1;
+
+        @include md {
+            font-size: 60px !important;
+
+        }
+    }
+
+    h3 {
+        font-size: 30px !important;
+        margin-top: -20px;
+        padding-left: 50px;
+
+        @include md {
+            font-size: 25px !important;
+            margin-top: -10px;
+        }
+    }
+
+    .p-text {
+        font-size: 22px !important;
+        width: 85% !important;
+        padding-left: 9rem;
+        margin-top: -0.5rem;
+
+        @include md {
+            width: 100% !important;
+            padding-left: 0px !important;
+            margin-top: 0px;
+        }
+    }
+
+    .number-text {
+        font-size: 200px !important;
+        font-weight: 500;
+        -webkit-text-stroke-width: 1 !important;
+        color: transparent !important;
+        font-family: 'rebond-extrabold' !important;
+        -webkit-text-stroke: 1px white !important;
+
+    }
+}
 
 .ant-drawer-content.mobile-nav {
     @include landgradient;
@@ -231,7 +492,6 @@
 }
 
 .heading {
-    font-size: 100px;
     font-weight: 500;
     color: #ffffff;
     font-family: 'bachelorette';
@@ -252,6 +512,16 @@
     }
 }
 
+p {
+    font-family: 'rebond-light' !important;
+    font-weight: 300 !important;
+    color: #EDEDED !important;
+    line-height: 1.1;
+}
+
+
+
+
 
 .blog-card {
 
@@ -267,9 +537,9 @@
             width: 100% !important;
         }
 
-        p.heading {
+        h2.heading {
             font-size: 50px;
-            color: #AD0000;
+            color: #AD0000 !important;
             padding-top: 0px !important;
 
             @include sm {
@@ -278,7 +548,8 @@
         }
 
         p {
-            color: #626262;
+            color: #626262 !important;
+            font-size: 18px !important;
         }
 
         small {

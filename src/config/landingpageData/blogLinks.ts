@@ -1,6 +1,6 @@
 export default [
-    { href: '/', text: 'The Game Mindset' },
-    { href: '/about', text: 'The Game Rules' },
-    { href: '/investor', text: 'The Choice Paradigm' },
-    { href: '/investor', text: 'Latest' }
+    { href: '/blogs/0', text: 'The Game Mindset' },
+    { href: '/blogs/1', text: 'The Game Rules' },
+    { href: '/blogs/2', text: 'The Choice Paradigm' },
+    { href: '', text: 'Latest' }
 ]

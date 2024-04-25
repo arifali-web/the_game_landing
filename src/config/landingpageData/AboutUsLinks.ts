@@ -1,5 +1,5 @@
 export default [
-    { href: '/', text: 'Meet our team' },
-    { href: '/about', text: 'Meet the founder' },
-    { href: '/investor', text: 'Contact us' },
+    { href: '/about', text: 'Meet our team' },
+    { href: '/about/inner-page', text: 'Meet the founder' },
+    { href: '/contact-us', text: 'Contact us' },
 ]

@@ -1,6 +1,6 @@
 export default [
-    { href: '/', text: 'Privacy Policy' },
-    { href: '/about', text: 'Term of Use' },
+    { href: '/privacy-policy', text: 'Privacy Policy' },
+    { href: '/terms-and-conditions', text: 'Term of Use' },
     { href: '/investor', text: 'Cookies Policy' },
-    { href: '/blog', text: 'Blog: The Game Method' }
+    { href: '/blogs', text: 'Blog: The Game Method' }
 ]

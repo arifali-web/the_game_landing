@@ -232,6 +232,7 @@ $breakpoints: (
   border: none;
   height: 80px;
   font-size: 30px;
+  font-family: 'rebond-regular';
 
   &:hover {
     background: linear-gradient(180deg, rgba(173, 0, 0, 1) 100%, rgba(236, 29, 29, 1) 100%) !important;
@@ -241,5 +242,26 @@ $breakpoints: (
   @include sm {
     height: 45px;
     font-size: 18px;
+  }
+}
+.cookies-button {
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  height: 70px;
+  font-size: 30px;
+  font-family: 'rebond-regular';
+  background-color: transparent;
+  border: 3px solid #b52929;
+  @include sm {
+    height: 45px;
+    font-size: 18px;
+  }
+  &:hover {
+    
+  @include landgradient;
+    background:none !important;
+    color: #ffffff !important;
+    border: 3px solid #b52929 !important;
   }
 }

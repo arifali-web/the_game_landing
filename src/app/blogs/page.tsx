@@ -1,6 +1,6 @@
 import Blog from '@/component/shared/cards/blogcard'
 import Blogcard from '@/component/shared/cards/blogcard'
-import TextComp from '@/component/shared/cards/text'
+import TextComp from '@/component/shared/text/text'
 import LandingpageLayout from '@/component/shared/layout/landingpage'
 import { Button } from 'antd'
 import React from 'react'
