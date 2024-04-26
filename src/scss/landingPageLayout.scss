@@ -7,15 +7,11 @@
     .layout {
         min-height: 100vh;
         min-width: 80vw !important;
-        // margin: 0 5rem;
-        // padding: 0 6rem;
     }
 
     .footer {
         @include landgradient;
-        // padding: 3rem 6rem;
         margin-top: 80px;
-        // height: 100%;
     }
 
     .circle-sketch-highlight-white {
@@ -86,15 +82,14 @@
         background-image: url("/landingpage-images/home-bg.svg");
         height: 1260px !important;
         width: 100%;
-        background-size: 100% 100%;
-        // background-size: cover;
+        background-size: cover;
         background-position: center;
 
         .heading {
             font-size: 200px;
             font-weight: 500;
             color: #ffffff;
-            font-family: 'bachelorette';
+            font-family: 'bachelorette' !important;
             line-height: 1;
 
             @include sm {
