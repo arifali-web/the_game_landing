@@ -1,11 +1,14 @@
+'use client'
 import Blog from '@/component/shared/cards/blogcard'
 import Blogcard from '@/component/shared/cards/blogcard'
 import TextComp from '@/component/shared/text/text'
 import LandingpageLayout from '@/component/shared/layout/landingpage'
 import { Button } from 'antd'
 import React from 'react'
+import { useRouter } from 'next/navigation'
 
 function Blogs() {
+    const router = useRouter()
     return (
         <LandingpageLayout>
             <div className='blogs-layout px-lg-5'>
@@ -26,7 +29,7 @@ function Blogs() {
                     <Blog />
                     <div className='d-flex justify-content-center py-5'>
 
-                        <Button className='land-button d-flex align-items-center px-5'>Latest</Button>
+                        <Button onClick={() => router.push('/blogs/latest')} className='land-button d-flex align-items-center px-5'>Latest</Button>
                     </div>
                 </div>
             </div>
