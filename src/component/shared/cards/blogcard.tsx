@@ -11,7 +11,7 @@ interface BlogCardProps {
     content: string;
     date: string;
     imageSrc: string;
-    path: string; // New prop for path
+    path: string; 
     handleClick: () => void;
 }
 const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc, path, handleClick }) => (

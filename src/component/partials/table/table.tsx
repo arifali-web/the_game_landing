@@ -1,3 +1,6 @@
+import React from "react";
+
+
 const data = [
     { category: "Physical attraction", weight: "5%", John: 10, Kevin: 5, Aron: 7 },
     { category: "Emotional attraction", weight: "5%", John: 7, Kevin: 5, Aron: 5 },
@@ -8,7 +11,7 @@ const data = [
     { category: "Weighted subtotal score", weight: "", John: "5,55", Kevin: "6,85", Aron: "9,1" }
 ];
 
-const Table = () => {
+const TableIndex = () => {
     return (
         <table className='text-white table'>
             <thead>
@@ -36,4 +39,4 @@ const Table = () => {
 };
 
 
-export default Table();
+export default TableIndex;

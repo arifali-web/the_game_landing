@@ -21,7 +21,7 @@ function BlogText({ heading, subHeading, text, number , src }: TextProps) {
                     <h2 className='heading'>{heading}</h2>
                     <div className='d-flex gap-2 arrow'>
                         <h3 className='sub-heading'>{subHeading}</h3>
-                        <Image className='icon' src={src} width={53.34} height={32.25} alt={''} />
+                        <Image className='icon' src={src} width={53.34} height={35.25} alt={''} />
                     </div>
                 </div>
             </div>

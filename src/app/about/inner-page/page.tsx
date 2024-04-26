@@ -24,7 +24,7 @@ function page() {
             <Image src={'/landingpage-images/teammember-img.svg'} style={{ objectFit: 'contain', overflow: 'hidden', width: '100%', height: '100%' }} width={850} height={700} alt={''} />
           </div>
         </div>
-        <div className="row py-5">
+        <div className="row py-5 founder">
           <div className="col-lg-6 col-12">
             <BlogText
               heading='How'

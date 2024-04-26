@@ -25,8 +25,8 @@ function page() {
           THIS AGREEMENT, YOU MAY NOT USE THE SITE FOR ANY PURPOSE THAT IS UNLAWFUL OR PROHIBITED BY THIS AGREEMENT
           AND/OR ANY APPLICABLE ADDITIONAL TERMS. YOUR ACCESS TO THE SITE MAY BE TERMINATED IMMEDIATELY BY THE DATE
           APP&rsquo;S SOLE DISCRETION, WITH OR WITHOUT NOTICE, IN ACCORDANCE WITH THESE TERMS.<br />You are responsible
-          for all compliance with laws and regulations which apply to You.<br /><br />Acceptance of Terms of Use
-          Agreement<br /><br />By creating a Game App account, whether through a mobile device, mobile application (the
+          for all compliance with laws and regulations which apply to You.<br /><br /><h2 className='rebond-bold'>1. Acceptance of Terms of Use
+          Agreement</h2><br /><br />By creating a Game App account, whether through a mobile device, mobile application (the
           &ldquo;Application&rdquo; or &ldquo;App&rdquo;) or computer (collectively, the &ldquo;Service&rdquo;) You
           agree to be bound by (i) these Terms of Use and (ii) our Privacy Policy, each of which is incorporated by
           reference into this Agreement, and (iii) any terms disclosed and agreed to by You if You purchase additional
@@ -40,12 +40,12 @@ function page() {
           obligations, we will notify You at least 30 days in advance of the changes (unless we&rsquo;re unable to do
           so under applicable law) by reasonable means, which could include notification through the Service or via
           email. If You continue to use the Service after the changes become effective, then You agree to the revised
-          Agreement.<br /><br />Modifying the Services<br /><br />The Game App is always striving to improve the Service and
+          Agreement.<br /><br /><h2 className='rebond-bold'>2. Modifying the Services</h2><br /><br />The Game App is always striving to improve the Service and
           br/ing You additional functionality that You will find engaging and useful. This means we may add new product
           features or enhancements from time to time as well as remove some features, and if these actions do not
           materially affect Your rights or obligations, we may not provide You with notice before taking them. We may
           even suspend the Service entirely, in which event we will notify You in advance unless extenuating
-          circumstances, such as safety or security concerns, prevent us from doing so.<br /><br />Term<br /><br />You will
+          circumstances, such as safety or security concerns, prevent us from doing so.<br /><br /> <h2 className='rebond-bold'>3. Term</h2><br /><br />You will
           have great fun at the Game App but if You feel like leaving, please read the following clause.<br /><br />This
           Agreement will remain in&nbsp;full force and effect while You use the Game App and/or are a&nbsp;member
           of&nbsp;the Game App. You may terminate Your membership at&nbsp;any time, for any reason.<br /><br />If You are
@@ -63,19 +63,19 @@ function page() {
           or&nbsp;at&nbsp;Your request, You will not be&nbsp;entitled to, nor shall the Game App be&nbsp;liable
           to&nbsp;You, for any refund of&nbsp;unused fees for using the Date App or&nbsp;its additional Services.
           Notwithstanding Your membership being terminated, this Agreement will remain in&nbsp;full
-          effect.<br /><br />Eligibility<br /><br />You are not authorized to create an account or access or use the Service
+          effect.<br /><br /><h2 className='rebond-bold'>4. Eligibility</h2><br /><br />You are not authorized to create an account or access or use the Service
           or systems it resides on unless all of the following are true:<br /><br />You are at least 18 years of
           age;<br />You can form a binding contract with the Game App;<br />You are not a person who is barred from using
           the Service under the laws of the United Kingdom or any other applicable jurisdiction;<br />You will comply
           with this Agreement and all applicable local, state, national and international laws, rules and regulations,
           and<br />You have never been convicted of a felony or indictable offense (or crime of similar severity), a sex
           crime, or any crime involving violence, and that You are not required to register as a sex offender with any
-          state, federal or local sex offender registry.<br /><br />Your Game App Account<br /><br />To use the Game App
+          state, federal or local sex offender registry.<br /><br /><h2 className='rebond-bold'></h2>5. Your Game App Account<br /><br />To use the Game App
           Services, You will have to create a Game App account. For that, You will have to sign up with Your email,
           create Your personal account and start enjoying the Game App.<br /><br />Unfortunately, we cannot allow You to
           use another person&rsquo;s account or to share Your Game App account with any other person without
-          permission.<br /><br />Content<br /><br />The Game App operates a zero-tolerance policy for this kind of
-          content.&nbsp;<br /><br />There is certain content we do not allow at the Game App.<br /><br />As much as we want
+          permission.<br /><br /><h2 className='rebond-bold'>6. Content</h2><br /><br />The Game App operates a zero-tolerance policy for this kind of
+          content.&nbsp;<br /><br /><h3 className='rebond-bold'>There is certain content we do not allow at the Game App.</h3><br /><br />As much as we want
           our Users to enjoy their experience on the Game App, as much as we must impose restrictions on certain
           content which:<br /><br />contains language or imagery which could be deemed offensive or is likely to harass,
           upset, embarrass, alarm or annoy any other person (including for example and without limitation, language
@@ -128,7 +128,7 @@ function page() {
           extent that Your use of it matches the Game App&rsquo;s purpose of allowing people to meet one another. You
           may not use other Users&rsquo; information for commercial purposes, to spam, to harass, stalk or to make
           unlawful threats. We reserve the right to terminate Your Account if You misuse other Users&rsquo;
-          information.<br />Our Content<br /><br />Any other content belongs to us! Any other text, content, graphics, User
+          information.<br /><h3 className='rebond-bold'>Our Content</h3><br /><br />Any other content belongs to us! Any other text, content, graphics, User
           interfaces, trademarks, logos, sounds, artwork, and other intellectual property appearing on the Game App,
           as well as the Game App software and database(s), are owned, controlled or licensed by us and are protected
           by copyright, trademark, data, database rights and/or other intellectual property law rights. All right,
@@ -154,7 +154,7 @@ function page() {
           the Application. You agree to indemnify and hold the Game App harmless from any claims, actions, or
           liabilities arising out of or in connection with Your use of the Application.<br /><br />The Game App grants You
           the right to report any inappropriate usage of the App but the Game App does not guarantee any
-          action.<br /><br />Restrictions on the App<br /><br />You agree to:<br /><br />comply with all applicable laws,
+          action.<br /><br /><h2 className='rebond-bold'>8. Restrictions on the App</h2><br /><br />You agree to:<br /><br />comply with all applicable laws,
           including without limitation, privacy laws, intellectual property laws, anti-spam laws, equal opportunity
           laws and regulatory requirements;<br />use Your real name and real age in creating Your Game App account and
           on Your profile; and<br />use the services in a professional manner.<br /><br />You agree that You will
@@ -173,12 +173,12 @@ function page() {
           immediately terminate any User&rsquo;s right to use of the App without prior notice, as set out further in
           these Terms and/or remove any improper, infringing or otherwise unauthorised Member Content submitted to the
           App.<br /><br />We don&rsquo;t control any of the things our Users say or do, so You are solely responsible for
-          Your interactions with other Users of the App.<br />YOU UNDERSTAND THAT THE GAME APP DOES NOT CONDUCT
+          Your interactions with other Users of the App.<br /><h3 className='rebond-bold'>YOU UNDERSTAND THAT THE GAME APP DOES NOT CONDUCT
           CRIMINAL BACKGROUND CHECKS ON ITS USERS. THE GAME APP ALSO DOES NOT INQUIRE INTO THE BACKGROUNDS OF ITS
           USERS OR ATTEMPT TO VERIFY THE STATEMENTS OF ITS USERS. THE GAME APP MAKES NO REPRESENTATIONS OR WARRANTIES
           AS TO THE CONDUCT OF ANY USERS OR THEIR COMPATIBILITY WITH ANY CURRENT OR FUTURE USERS. THE GAME APP
           RESERVES THE RIGHT TO CONDUCT ANY CRIMINAL BACKGROUND CHECK OR OTHER SCREENINGS (SUCH AS SEX OFFENDER
-          REGISTRATION SEARCHES) AT ANY TIME AND TO USE AVAILABLE PUBLIC RECORDS FOR ANY PURPOSE.<br /><br />You agree to,
+          REGISTRATION SEARCHES) AT ANY TIME AND TO USE AVAILABLE PUBLIC RECORDS FOR ANY PURPOSE.</h3><br /><br />You agree to,
           and hereby do, release the Game App and its successors from any claims, demands, losses, damages, rights,
           and actions of any kind, including personal injuries, death and property damage, that either directly or
           indirectly arises from Your interactions with or conduct of other Users of the App. Any release made under
@@ -188,10 +188,10 @@ function page() {
           suppression or omission of any material fact in connection with the App.<br /><br />Scraping or replicating any
           part of the App without our prior consent is expressly prohibited. This includes by any means (automated or
           otherwise) other than through our currently available, published interfaces - unless You have been
-          specifically allowed to do so in a separate agreement with us.<br /><br />Privacy<br /><br />For information about
+          specifically allowed to do so in a separate agreement with us.<br /><br /> <h2 className='rebond-bold'>9. Privacy</h2><br /><br />For information about
           how the Game App collects, uses, and shares Your personal data, please check out our Privacy Policy [INSERT
           HYPERLINK].<br /><br />By using the Game App, You acknowledge that we may use such data in accordance with
-          our&nbsp;Privacy Policy [INSERT HYPERLINK].<br /><br />Purchase of Memberships and Payment Terms<br /><br />The Game
+          our&nbsp;Privacy Policy [INSERT HYPERLINK].<br /><br /><h2 className='rebond-bold'>10. Purchase of Memberships and Payment Terms</h2><br /><br />The Game
           App may offer products and services for purchase on the App (&ldquo;In-App Purchase&rdquo;). If You choose
           to make an In-App Purchase, You acknowledge and agree that additional terms, disclosed to You at the point
           of purchase, may apply, and that such additional terms are incorporated herein by reference.&nbsp;<br /><br />If
@@ -201,9 +201,9 @@ function page() {
           displayed to You for the service(s) You&apos;ve selected as well as any sales or similar taxes that may be
           imposed on Your payments, and You authorize the Game App or the third party account, as applicable, to
           charge You.<br /><br />Subscriptions and Auto-Renewal:&nbsp;the Game App may offer some services as
-          automatically-renewing subscriptions.&nbsp;IF YOU PURCHASE AN AUTOMATICALLY RENEWING SUBSCRIPTION, YOUR
+          automatically-renewing subscriptions.&nbsp;<h3 className='rebond-bold'>IF YOU PURCHASE AN AUTOMATICALLY RENEWING SUBSCRIPTION, YOUR
           SUBSCRIPTION WILL RENEW AT THE END OF THE PERIOD, UNLESS YOU CANCEL, AT THE GAME APP&rsquo;S THEN-CURRENT
-          PRICE FOR SUCH SUBSCRIPTIONS.&nbsp;To avoid charges for a new subscription period, You must cancel, as
+          PRICE FOR SUCH SUBSCRIPTIONS.</h3>&nbsp;To avoid charges for a new subscription period, You must cancel, as
           described below, before the end of the then-current subscription period. Deleting Your account or deleting
           the application from Your device does not cancel Your subscription. You will be given notice of changes in
           the pricing of the Services to which You have subscribed and an opportunity to cancel. If the Game App
@@ -235,7 +235,7 @@ function page() {
           previously, You will not be eligible for another free trial and You will then be automatically signed up to
           a subscription and charged as described in this paragraph.<br /><br />Refunds. The Game App does not provide any
           kind of refunds and does not apply any refund policy and and there are no refunds or credits for partially
-          used periods.<br /><br />Taxes<br /><br />The payments required under this section do not include any sales tax
+          used periods.<br /><br /><h2 className='rebond-bold'>11. Taxes</h2><br /><br />The payments required under this section do not include any sales tax
           that may be due in connection with the Services provided under these Terms. If the Game App determines it
           has a legal obligation to collect sales tax from You in connection with these Terms, the Game App will
           collect such sales tax in addition to the payments required under this section. If any Services, under these
@@ -243,7 +243,7 @@ function page() {
           the , You will be responsible for the payment of such Sales Tax and any related penalties or interest to the
           relevant tax authority. As used herein, &ldquo;Sales Tax&rdquo; means any sales or use tax and any other tax
           measured by sales proceeds that is the functional equivalent of a sales tax where the applicable taxing
-          jurisdiction does not otherwise impose a sales or use tax.<br /><br />Disclaimers<br /><br />THE GAME APP PROVIDES
+          jurisdiction does not otherwise impose a sales or use tax.<br /><br /><h2 className='rebond-bold'>12. Disclaimers</h2><br /><br />THE GAME APP PROVIDES
           THE SERVICE ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; BASIS AND TO THE EXTENT PERMITTED BY
           APPLICABLE LAW, GRANTS NO WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE WITH
           RESPECT TO THE SERVICE (INCLUDING ALL CONTENT CONTAINED THEREIN), INCLUDING, WITHOUT LIMITATION, ANY IMPLIED
@@ -258,7 +258,7 @@ function page() {
           CONTENT, ANY MEMBER CONTENT, OR ANY PORTION THEREOF, IS CORRECT, ACCURATE, OR RELIABLE. YOUR USE OF THE APP
           OR SITE IS AT YOUR OWN RISK. YOU ARE SOLELY RESPONSIBLE FOR YOUR INTERACTIONS WITH OTHER MEMBERS. THE GAME
           APP IS NOT RESPONSIBLE FOR THE CONDUCT OF ANY USER. THE GAME APP DOES NOT CONDUCT CRIMINAL BACKGROUND CHECKS
-          ON ITS MEMBERS.<br /><br />Limitation of Liability<br /><br />NEITHER US NOR ANY OWNER WILL BE LIABLE FOR ANY
+          ON ITS MEMBERS.<br /><br /><h2 className='rebond-bold'>13. Limitation of Liability</h2><br /><br />NEITHER US NOR ANY OWNER WILL BE LIABLE FOR ANY
           DAMAGES, DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE, INCLUDING, WITHOUT LIMITATION,
           LOSS OF DATA, INCOME, PROFIT OR GOODWILL, LOSS OF OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES ARISING
           OUT OF YOUR ACCESS TO OR USE OF THE APP, SITE, OUR CONTENT, OR ANY MEMBER CONTENT, HOWEVER CAUSED, WHETHER
@@ -275,7 +275,7 @@ function page() {
           DISCLAIMERS AND EXCLUSIVE REMEDIES SPECIFIED HEREIN WILL SURVIVE EVEN IF FOUND TO HAVE FAILED IN THEIR
           ESSENTIAL PURPOSE. THE FOREGOING DOES NOT APPLY TO LIABILITY ARISING FROM ANY FRAUD OR FRAUDULENT
           MISREPRESENTATIONS, OR ANY OTHER LIABILITY THAT CANNOT BE LIMITED BY APPLICABLE
-          LAW.<br /><br />Indemnity<br /><br />All the actions You make and information You post on the Game App remain Your
+          LAW.<br /><br /> <h2 className='rebond-bold'>14. Indemnity</h2><br /><br />All the actions You make and information You post on the Game App remain Your
           responsibility. Therefore, You agree to indemnify, defend, release, and hold us, and our partners,
           licensors, affiliates, contractors, officers, directors, employees, representatives and agents, harmless,
           from and against any third party claims, damages (actual and/or consequential), actions, proceedings,
@@ -288,7 +288,7 @@ function page() {
           fully and reasonably as required by us in the defence of any relevant claim.&nbsp;<br /><br />The foregoing
           provision does not require You to indemnify the Game App for any unconscionable commercial practice or any
           fraud, deception, false promise, misrepresentation or concealment, suppression or omission of any material
-          fact in connection with the App.<br /><br />Claims of Copyright Infringement<br /><br />If You believe any content
+          fact in connection with the App.<br /><br /><h2 className='rebond-bold'>15. Claims of Copyright Infringement</h2><br /><br />If You believe any content
           on the Game App infringes the copyright in a work that You own, please submit a notification alleging such
           infringement (&ldquo;Takedown Notice&rdquo;) to the Game App at the following email support@thegameapp.io.
           The Takedown Notice must include the following:<br /><br />A physical or electronic signature of a person
@@ -302,12 +302,12 @@ function page() {
           mail;&nbsp;<br />A statement that You have a good faith belief that use of the material in the manner
           complained of is not authorised by the copyright owner, its agent, or the law; and&nbsp;<br />A statement
           that, under penalty of perjury, the information in the notification is accurate and You are authorised to
-          act on behalf of the owner of the exclusive right that is allegedly infringed.&nbsp;<br /><br />Third party
-          Services<br /><br />The Service may contain advertisements and promotions offered by third parties and links to
+          act on behalf of the owner of the exclusive right that is allegedly infringed.&nbsp;<br /><br /> <h2 className='rebond-bold'>16. Third party
+          Services</h2><br /><br />The Service may contain advertisements and promotions offered by third parties and links to
           other web sites or resources. The Game App is not responsible for the availability (or lack of availability)
           of such external websites or resources. If You choose to interact with the third parties made available
           through our Service, such party&apos;s terms will govern their relationship with You. The Game App is not
-          responsible or liable for such third parties&apos; terms or actions.<br /><br />Third Party App Store<br /><br />The
+          responsible or liable for such third parties&apos; terms or actions.<br /><br /><h2 className='rebond-bold'>17. Third Party App Store</h2><br /><br />The
           following additional terms and conditions apply to You if You download the App from a Third Party Store. To
           the extent that the other terms and conditions of these Terms are less restrictive than, or otherwise
           conflict with, the terms and conditions of this Section, the more restrictive or conflicting terms and
@@ -335,7 +335,7 @@ function page() {
           Store or mobile carrier shall govern and control. We are not responsible and have no liability whatsoever
           for third-party goods or services You obtain through a Third Party Store or mobile carrier. We encourage You
           to make whatever investigation You feel necessary or appropriate before proceeding with any online
-          transaction with any of these third parties.<br /><br />Governing Law and Arbitration<br /><br />Governing Law. Any
+          transaction with any of these third parties.<br /><br /> <h2 className='rebond-bold'>18. Governing Law and Arbitration</h2><br /><br />Governing Law. Any
           dispute arising out of or relating to these Terms shall be governed by, construed and enforced in accordance
           with the laws of the United Kingdom notwithstanding any conflict of law provisions. Any controversy or claim
           arising out of or relating to these Terms, or the br/each thereof, or Your use of the Service, other than a
@@ -418,7 +418,7 @@ function page() {
           arbitration proceeding will not be consolidated with any other matters or joined with any other cases or
           parties, nor shall this preclude application of the arbitration provider&rsquo;s fee
           schedules.</p>
-        <h2>Entire Agreement</h2>
+        <h2 className='rebond-bold text-white'>19. Entire Agreement</h2>
         <p>
           This Agreement, which includes the Privacy Policy [Insert
           Hyperlink], and any terms disclosed and agreed to by You if You purchase additional features, products or

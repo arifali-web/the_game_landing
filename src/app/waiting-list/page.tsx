@@ -19,8 +19,6 @@ function page() {
                     />
                 </div>
 
-
-
                 <div className='form'>
 
 

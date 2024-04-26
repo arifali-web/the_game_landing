@@ -232,7 +232,7 @@ $breakpoints: (
   border: none;
   height: 80px;
   font-size: 30px;
-  font-family: 'rebond-regular';
+  font-family: 'rebond-medium';
 
   &:hover {
     background: linear-gradient(180deg, rgba(173, 0, 0, 1) 100%, rgba(236, 29, 29, 1) 100%) !important;
@@ -265,3 +265,5 @@ $breakpoints: (
     border: 3px solid #b52929 !important;
   }
 }
+
+

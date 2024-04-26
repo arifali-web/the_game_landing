@@ -17,7 +17,7 @@ function home() {
             <div className='row'>
                 <div className="col-lg-6 col-12 d-flex justify-content-lg-end">
                     <p className=' text-white learn-text rebond-medium'>Learn to date better. <br />
-                        The only app you need <br />
+                        The <span className="circle-sketch-highlight">only app you need</span>  <br />
                         to find and keep love.</p>
                 </div>
             </div>
