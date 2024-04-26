@@ -1,10 +1,14 @@
+'use client'
 import TextComp from '@/component/shared/text/text';
 import LandingpageLayout from '@/component/shared/layout/landingpage'
 import { Button } from 'antd'
 import Image from 'next/image';
 import React from 'react'
+import { useRouter } from 'next/navigation';
 
 function home() {
+
+    const router = useRouter()
     return (
         <LandingpageLayout >
             <div className='home  d-flex text-center justify-content-center align-items-center flex-column'>
@@ -33,7 +37,7 @@ function home() {
                         But if you don’t play, your chance is 0%. <br />
                         It’s up to you!</p>
 
-                    <Button className='land-button d-flex align-items-center px-5'>How do I start?</Button>
+                    <Button onClick={() => { router.push('/waiting-list') }} className='land-button d-flex align-items-center px-5'>How do I start?</Button>
                 </div>
             </div>
         </LandingpageLayout>

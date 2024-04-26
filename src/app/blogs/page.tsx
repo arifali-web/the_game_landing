@@ -8,7 +8,7 @@ import React from 'react'
 function Blogs() {
     return (
         <LandingpageLayout>
-            <div className='blogs-layout'>
+            <div className='blogs-layout px-lg-5'>
                 <div className='blogs-bg flex-column text-center d-flex gap-5 justify-content-center'>
                     <TextComp
                         heading='Learn to date and love better'

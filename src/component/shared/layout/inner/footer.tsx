@@ -34,10 +34,10 @@ function Footer() {
 
             <div className='col-lg-6 col-12 d-flex align-items-lg-start align-items-center py-4 py-lg-0 justify-content-lg-end flex-column flex-lg-row  gap-5'>
                 <Sociallinks />
-                <div className='d-flex flex-column gap-3'>
+                {/* <div className='d-flex flex-column gap-3'>
                     <Image src={'/landingpage-images/applelink.svg'} alt='' height={54} width={195} />
                     <Image src={'/landingpage-images/playstore.svg'} alt='' height={54} width={195} />
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -17,12 +17,13 @@ interface BlogCardProps {
 const BlogCard: React.FC<BlogCardProps> = ({ title, content, date, imageSrc, path, handleClick }) => (
 
     
-    <div onClick={handleClick} className='blog-card pointer col-lg-4 col-12 d-flex flex-column align-items-center my-3'>
+    <div onClick={handleClick} className='blog-card px-2 pointer col-lg-4 col-12 d-flex flex-column align-items-center my-3'>
         <Image
             src={imageSrc}
             alt=''
             height={250}
             width={530}
+            style={{ width: '100%' }}
             className='profile-img img-fluid'
         />
         <div className='text-box'>
